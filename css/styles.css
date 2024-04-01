@@ -1,0 +1,183 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #6c757d;
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 50px 0;
+}
+
+/* Estilos de la sección principal */
+#home {
+    background-image: url('../img/fodo.webp'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.translucent-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con opacidad */
+    padding: 20px; /* Espaciado interno del cuadro de texto */
+    border-radius: 10px; /* Borde redondeado */
+}
+/* Estilos del carrusel */
+.carousel-item img {
+    height: 320px;
+    object-fit: cover;
+}
+
+/* Estilos de los servicios */
+.services-1 {
+    background-image: url(../img/fofo.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.services-1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.Arrendamientos {
+    /* Agrega aquí tus estilos personalizados */
+    background-image: url(../img/fonno.gif); /* Cambia el color de fondo según tus preferencias */
+    background-size: cover;
+    padding: 20px; /* Ajusta el espaciado interno según sea necesario */
+    border-radius: 10px; /* Ajusta el radio del borde si deseas bordes redondeados */
+    margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
+    /* Agrega más estilos según tus necesidades */
+}
+
+/* Estilos de la sección de Artículos */
+#Articulos {
+    background: #00000086;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.fila img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Estilos de la sección de Muebles */
+#muebles {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Estilos del formulario de contacto */
+#contacto {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+}
+
+#contacto form {
+    margin-top: 20px;
+}
+
+#contacto input,
+#contacto select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contacto button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0004ff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contacto button:hover {
+    background-color: #4b89c7;
+}
+
+/* Estilos del mapa */
+#oficinas {
+    background-image: url(../img/imagegi.gif);
+    background-size: cover;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contactoloco {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+}
+
+#contactoloco input,
+#contactoloco select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos de la información de contacto */
+#informacion {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+}
+
+#informacion p {
+    margin-bottom: 10px;
+}
+
+#informacion img {
+    margin-left: 5px;
+}
+
+/* Estilos del pie de página */
+#informacion footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 50px; /* Padding uniforme en todos los lados */
+    margin: 0; /* Eliminar márgenes */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos de los enlaces en el pie de página */
+#informacion footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+#informacion footer a:hover {
+    text-decoration: none;
+    color: #f8f9fa;
+}
